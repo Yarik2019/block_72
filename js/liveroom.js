@@ -1,6 +1,21 @@
 
 
 
+
+window.addEventListener('scroll', function() {
+  if(pageYOffset>130)
+    {
+      document.getElementById('menu-fiex').classList.add('fixed-top');
+    }else{
+      document.getElementById('menu-fiex').classList.remove('fixed-top');
+    }
+
+
+});
+
+
+
+
 $(".skillbar").each(function(){
   $(this).find(".skillbar-title").animate({
     width:$(this).attr("date-parcent")

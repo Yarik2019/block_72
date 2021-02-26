@@ -1,14 +1,18 @@
+window.addEventListener('scroll', function() {
+  if(pageYOffset>130)
+    {
+      document.getElementById('menu-fiex').classList.add('fixed-top');
+    }else{
+      document.getElementById('menu-fiex').classList.remove('fixed-top');
+    }
+
+
+});
 
 
 
 
-
-
-
-
-
-
-var wrapper = document.querySelector(".wrapper");
+/*var wrapper = document.querySelector(".wrapper");
 var text = document.querySelector(".text");
 
 var textCont = text.textContent;
@@ -28,3 +32,4 @@ for (var i = 0; i < textCont.length; i++) {
     }, 10 * i);
   }(i));
 }
+*/

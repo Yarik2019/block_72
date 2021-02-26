@@ -4,6 +4,8 @@
   font-family:'Potta One', sans-serif;
   text-transform: uppercase;
 	font-weight: bold;
+	transition: 1.5s;
+
 
 
 }
@@ -41,7 +43,7 @@ li{
 	height:auto;
 	padding-bottom: 50px;
 	margin:0;
-	
+
 
 }
 
@@ -384,12 +386,17 @@ color:white;
   	
    padding-left:0;
   }
+  .dispaly-block{
+  	display: flex;
+  	justify-content: center;
+  }
 
 }
 @media screen and (max-width:625px){
-	.header{
-		height: 100%;
+		.header{
+		height: auto;
 	}
+	
 	.h4_article{
 		font-size:25px;
 	}
@@ -423,15 +430,17 @@ color:white;
   }
 }
 
-@media screen and (min-width:599px){
-	
-	
 
-}
 @media screen and (max-width:599px){
-
+	.dispaly-none{
+		display: none;
+    }
+     .dispaly-block{
+     	display: flex;
+     	justify-content: center;
+     }
 	.header{
-		height: 100%;
+		height: auto;
 	}
 
 	.btn-a{
@@ -475,5 +484,7 @@ color:white;
   	display: none;
   }
 }
+
+	
 
 	

@@ -18,6 +18,17 @@
 	text-decoration: none;
 
 }
+.text_a{
+   color:white;
+   transition: 0.5s;
+	
+}
+.text_a:hover{
+	color:gray;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
 .background-header{
      width: 100%;
      min-height: 1000px;
@@ -27,6 +38,9 @@
 
 
 
+}
+.dum{
+	
 }
 
 .h1-text > h1{
@@ -75,7 +89,7 @@ font-weight: bold;
 	border-radius: 10px;
 	background: url("../meg/Frame1 5.png");
 	color:white;
-	padding: 0 30%;
+	
      width: 100%;
 	border-bottom:3px solid white;
 }
@@ -87,13 +101,25 @@ font-weight: bold;
 }
 
 .btn{
+	transition: 0.5s;
 	background: url("../meg/Frame1 5.png");
 	color:white;
 	font-size:25px;
 	cursor: pointer;
 	border:none; 
+
 	
 }
+.btn:hover{
+	transition: 0.5s;
+	background: white;
+	color:black;
+	font-size:25px;
+	cursor: pointer;
+	border:none; 
+	
+}
+
 
 @media screen and (max-width: 1920px){
 	.background-header{

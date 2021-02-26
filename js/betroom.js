@@ -1,3 +1,21 @@
+
+
+window.addEventListener('scroll', function() {
+  if(pageYOffset>130)
+    {
+      document.getElementById('menu-fiex').classList.add('fixed-top');
+    }else{
+      document.getElementById('menu-fiex').classList.remove('fixed-top');
+    }
+
+
+});
+
+
+
+
+
+
 var wrapper = document.querySelector(".wrapper");
 var text = document.querySelector(".text");
 
